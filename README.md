@@ -21,7 +21,6 @@ git config --global core.excludesfile = ~/.gitignore_global
 git config --global submodule.recurse = true
 ```
 
-
 # Multi git users on same machine
 
 - create ssh keys for different user name and email
