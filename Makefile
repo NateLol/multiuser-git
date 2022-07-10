@@ -1,10 +1,10 @@
-comment ?= "minor revision"
+m ?= "minor revision"
 
 .PHONY: upload
 
 upload:
 	git add .
-	git commit -m "$(comment)"
+	git commit -m "$(m)"
 	git push -u origin main
 
 
