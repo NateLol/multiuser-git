@@ -1,4 +1,4 @@
-m ?= "minor revision"
+m ?= minor revision
 
 .PHONY: upload
 
