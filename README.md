@@ -17,8 +17,8 @@ and add the files you would like git to ignore, depending on the apps you use an
 - configure the global git setting:
 
 ```
-git config --global core.excludesfile = ~/.gitignore_global
-git config --global submodule.recurse = true
+git config --global core.excludesfile ~/.gitignore_global
+git config --global submodule.recurse true
 ```
 
 # Multi git users on same machine
@@ -51,7 +51,7 @@ git@github.com:<user1_name>/<repo1>.git
 just change the github.com to the name after `Host` from the previous step, so we have:
 ```
 git@<user1_host_name>:<user1_name>/<repo1>.git
-```  
+```
 
 
 # Git-ACC
